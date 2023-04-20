@@ -35,10 +35,12 @@ class Product{
     async updateProduct(id){
         const response = await fetch(`http://localhost:3000/products/${id}`)
         const product = await response.json()
+      
        this.prePopulate(product)
        const btn = document.querySelector("#btn")
        btn.addEventListener('click', (e)=>{
         e.preventDefault()
+        
         const updatedProduct= new Product().readValues();
         if(btn.innerText==="Update Product"){
             console.log("Updating");
@@ -86,10 +88,12 @@ class Product{
 }
 
 const btn = document.querySelector("#btn")
-if(btn.innerText==='Add Product'){
-    btn.addEventListener('click', new Product().addProduct)
-    console.log("Adding");
-}
+
+    btn.addEventListener('click', ()=>{
+        if(btn.innerText==='Add Product'){
+            new Product().addProduct()
+        }
+    })
 
 
 class ProductList{
