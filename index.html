@@ -4,13 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
     <title>Document</title>
    <link rel="stylesheet" href="./styles.css"/>
 </head>
 <body>
      <div class="header">
         <h3>KISHOP CHETU</h3>
+        <div  class="basket" >
+            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><circle cx="176" cy="416" r="16" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><circle cx="400" cy="416" r="16" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M48 80h64l48 272h256"/><path d="M160 288h249.44a8 8 0 007.85-6.43l28.8-144a8 8 0 00-7.85-9.57H128" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg>
+            <div class="notification" > </div>
+
+        </div>
     </div>
+    <div class="form-container">
+       
+   
+      <div class="container1" >
     <div class="form">
         <div class="form-content">
             <div class="form-group">
@@ -27,7 +39,7 @@
 
             <div class="form-group">
                 <div class="form-control">
-                    <label for="description"> Product Name </label>
+                    <label for="description"> Product Description </label>
                   <textarea name="" id="p_description" cols="20" rows="5"></textarea>
                 </div>
 
@@ -45,9 +57,33 @@
     <div id="app">
        <product-item></product-item>
     </div>
-    <div id="cartcont">
-        
+     </div>
+ <div id="cartcont" >
+        <h2>Cart </h2>
+
+
+
+        <!-- <div class="cart-item">
+            <div class="cart-item-image">
+                <img src="/twitter-clone/img/jake-givens-ocwmWiNAWGs-unsplash.jpg" alt="">
+            </div>
+            <div class="cart-item-details">
+                <p class="cart-item-name">[product name]</p>
+                <p class="cart-item-price">[$ 500]</p>
+                <div class="cart-item-actions">
+                    <ion-icon name="add-outline" size="large" id="plus"></ion-icon>
+                    <ion-icon name="remove-outline" size="large" id="minus"></ion-icon>
+                    <ion-icon name="close-outline" size="large" id="delete"></ion-icon>
+                </div>
+            </div>
+        </div> -->
+  
+            
     </div>
+   
+    </div>
+
+
     <script src="./app.js" defer></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
