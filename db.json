@@ -15,11 +15,46 @@
       "id": 4
     },
     {
-      "productName": "",
-      "productImg": "",
+      "productName": "apple",
+      "productImg": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YW5kcm9pZCUyMHBob25lfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+      "productDescription": "Apple ",
+      "productPrice": "500",
+      "id": 11
+    },
+    {
+      "productName": "Monitor",
+      "productImg": "https://www.saruk.co.ke/images/71341680079746.png",
+      "productDescription": "24 inch",
+      "productPrice": "20000",
+      "id": 15
+    },
+    {
+      "productName": "GAME PADS",
+      "productImg": "https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/17/1525111/1.jpg?1386",
       "productDescription": "",
-      "productPrice": "",
-      "id": 5
+      "productPrice": "1,500",
+      "id": 17
+    },
+    {
+      "productName": "Phone",
+      "productImg": "https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/53/767668/1.jpg?8777",
+      "productDescription": "",
+      "productPrice": "100",
+      "id": 18
+    },
+    {
+      "productName": "HP flash disk",
+      "productImg": "https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/17/136676/1.jpg?3056",
+      "productDescription": "64GB",
+      "productPrice": "70",
+      "id": 19
+    },
+    {
+      "productName": "Infinix Phone",
+      "productImg": "https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/90/2338621/1.jpg?8497",
+      "productDescription": "Smart 4 32 GB ROM / 2GB RAM . 5000mAH battery",
+      "productPrice": "100",
+      "id": 20
     }
   ]
 }
